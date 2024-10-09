@@ -676,12 +676,11 @@ footer .socialMedia img {
 }
 
 
-.section__link > img{
+.section_link > img{
     width: 80%;
-    min-width: 1200px;
+    border-radius: 1%;
     margin-left: 10%;
-    background: url(../imagenes/banner-home.jpg) no-repeat center center;
-    position: relative;
+    
 }
 
 .section__link1 > img{
@@ -990,7 +989,17 @@ footer .socialMedia img {
         flex-direction: column;
         margin: 0;
     }
-    .section__link > img{
+
+    .section_link > img{
+        width: 90%;
+        border-radius: 2%;
+        object-fit: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section__link1 > img{
         width: 600px;
         margin: 0;
         border-radius: 2%;
