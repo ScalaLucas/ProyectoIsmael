@@ -23,6 +23,7 @@ html {
     --text_title_cardv2: 20px;
     --text_paragraph: 16px;
     --box_shadow-primary: 0px 6px 50px -20px rgba(0, 0, 0, 0.2);
+    --main-color:#d3ad7f;
 }
 
 header {
@@ -799,6 +800,60 @@ footer .socialMedia img {
 .ful-img img{
     width: 90%;
     max-width: 600px;
+}
+
+/*SERVICIOS*/
+
+
+.review .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+
+}
+
+
+.review .box-container .box{
+    border:var(--border);
+    text-align: center;
+    padding:3rem 2rem;
+}
+
+.review .box-container .box p{
+    font-size: 1.3rem;
+    line-height: 1.8;
+    padding:2rem 0;
+}
+
+.review .box-container .box .user{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .box-container .box h3{
+    padding:1rem 0;
+    font-size: 2rem;
+    color:#fff;
+}
+
+.review .box-container .box .stars i{
+    font-size: 1.5rem;
+    color:var(--main-color);
+}
+
+.heading{
+    text-align: center;
+    color:var(--main-color);
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+.heading span{
+    color:var(--main-color);
+    text-transform: uppercase;
 }
   
   @media only screen and (max-width: 769px){
@@ -2419,5 +2474,76 @@ footer .socialMedia img {
         width: 87px;
         height: 20px;
         background: url(../imagenes/signos.png) no-repeat left center;
+    }
+
+    @media (max-width:991px){
+
+        html{
+            font-size: 55%;
+        }
+    
+        .header{
+            padding:1.5rem 2rem;
+        }
+    
+        section{
+            padding:2rem;
+        }
+    
+    }
+    
+    @media (max-width:768px){
+    
+        #menu-btn{
+            display: inline-block;
+        }
+    
+        .header .navbar{
+            position: absolute;
+            top:100%; right: -100%;
+            background: #fff;
+            width: 30rem;
+            height: calc(100vh - 9.5rem);
+        }
+    
+        .header .navbar.active{
+            right:0;
+        }
+    
+        .header .navbar a{
+            color:var(--black);
+            display: block;
+            margin:1.5rem;
+            padding:.5rem;
+            font-size: 2rem;
+        }
+    
+        .header .search-form{
+            width: 90%;
+            right: 2rem;
+        }
+    
+        .home{
+            background-position: left;
+            justify-content: center;
+            text-align: center;
+        }
+    
+        .home .content h3{
+            font-size: 4.5rem;
+        }
+    
+        .home .content p{
+            font-size: 1.5rem;
+        }
+    
+    }
+    
+    @media (max-width:450px){
+    
+        html{
+            font-size: 50%;
+        }
+    
     }
 }
