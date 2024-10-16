@@ -854,7 +854,7 @@ footer .socialMedia img {
 .heading{
     margin: 5%;
     text-align: center;
-    color:var(--main-color);
+    color:var(--main_color-primary);
     text-transform: uppercase;
     font-size: 3rem;
 }
