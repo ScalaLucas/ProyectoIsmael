@@ -961,6 +961,8 @@ body {
 
     /*HEADER - MENU*/
 
+
+
     .d1{
         display: none;
     }
@@ -1020,6 +1022,10 @@ body {
 @media screen and (max-width: 960px) {
 
     /*HEADER - MENU*/
+
+    #m3{
+        display: none;
+    }
 
     .bars__menu {
         display: block;
@@ -2579,6 +2585,10 @@ body {
     }
     
     @media (max-width:768px){
+
+        .section__link1 > img{
+            width: 100%;
+        }
     
         #menu-btn{
             display: inline-block;
