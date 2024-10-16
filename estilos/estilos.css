@@ -752,6 +752,10 @@ footer .socialMedia img {
    width: 100%;
    gap: 15px;
 }
+
+.heading > h4{
+    margin-top: 5%;
+}
   
   .container .box .dream{
     display: flex;
