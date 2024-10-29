@@ -784,6 +784,18 @@ footer .socialMedia img {
 .heading > h4{
     margin-top: 5%;
 }
+
+.container .dream h2{
+    font-size: 2em;
+    font-weight: bolder;
+    color: var(--color_text-primary);
+}
+
+.dream > h2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: 0.8;
+}
   
   .container .box .dream{
     display: flex;
